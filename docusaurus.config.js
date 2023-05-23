@@ -1,4 +1,4 @@
-// @ts-check
+// @ts-nocheck
 // Note: type annotations allow type checking and IDEs autocompletion
 
 const lightCodeTheme = require("prism-react-renderer/themes/github");
@@ -7,7 +7,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "NGOD",
-  tagline: "Welcome to the New Generation Of Developers.",
+  tagline: "#NewGenerationOfDevelopers",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -41,7 +41,7 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/joaquinmetayer/NGOD",
+          //editUrl: "https://github.com/joaquinmetayer/NGOD/tree/master/",
         },
         blog: {
           showReadingTime: false,
@@ -57,7 +57,7 @@ const config = {
     ],
   ],
 
-  themeConfig:
+themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
@@ -69,12 +69,12 @@ const config = {
           src: "img/gear.png",
         },
         items: [
-          {
-            type: "docSidebar",
-            sidebarId: "tutorialSidebar",
-            position: "left",
-            label: "Tutorial",
-          },
+          //{
+          //  type: "docSidebar",
+          //  sidebarId: "tutorialSidebar",
+          //  position: "left",
+          //  label: "Tutorial",
+          //},
           //{to: '/blog', label: 'Blog', position: 'left'},
           {
             href: "https://github.com/joaquinmetayer/NGOD",
@@ -83,9 +83,9 @@ const config = {
           },
         ],
       },
-      footer: {
-        style: "light",
-        links: [
+      //footer: {
+      //  style: "light",
+      //  links: [
       //    {
       //      title: "Project",
       //      items: [
@@ -120,9 +120,9 @@ const config = {
       //        },
       //      ],
       //   },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} NGOD. With ❤️ by the community and <a href="https://joaquinmetayer.com/" target="_blank">Joaquin Metayer</a>.`,
-      },
+      //  ],
+      //  copyright: `Copyright © ${new Date().getFullYear()} NGOD. With ❤️ by the community and <a href="https://joaquinmetayer.com/" target="_blank">Joaquin Metayer</a>.`,
+      //},
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
