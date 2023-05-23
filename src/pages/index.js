@@ -12,9 +12,17 @@ function HomepageHeader() {
     <header className={clsx('hero hero--secundary custom-hero', styles.heroBanner)}>
       <div className="container">
         <h1 className="hero__title title-black">{siteConfig.title}</h1>
-        <p className="hero__subtitle">Learn and understand how to make high quality software
-        <br/>to create faster with artificial intelligence.
-        <br/>{siteConfig.tagline}</p>
+        <p className="hero__subtitle">
+          {siteConfig.customFields.description
+            .split("\n")
+            .map((line, index) => (
+              <React.Fragment key={index}>
+                {line}
+                <br />
+              </React.Fragment>
+            ))}
+          {siteConfig.tagline}
+        </p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"

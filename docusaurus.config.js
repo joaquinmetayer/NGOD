@@ -7,6 +7,10 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "NGOD",
+  customFields: {
+    description: `Learn and understand how to make high quality software
+      to create faster with artificial intelligence.`,
+  },
   tagline: "Welcome to the New Generation Of Developers.",
   favicon: "img/favicon.ico",
 
@@ -86,40 +90,40 @@ const config = {
       footer: {
         style: "light",
         links: [
-      //    {
-      //      title: "Project",
-      //      items: [
-      //        {
-      //          label: "How to collab",
-      //          to: "/docs/collab",
-      //        },
-      //        {
-      //          label: "GitHub Repository",
-      //          href: "https://github.com/joaquinmetayer/NGOD",
-      //        },
-      //        {
-      //          label: "GitHub Project",
-      //          href: "https://github.com/users/joaquinmetayer/projects/3",
-      //        },
-      //      ],
-      //    },
-      //    {
-      //      title: "Joaquin",
-      //      items: [
-      //        {
-      //          label: "Website",
-      //          href: "https://joaquinmetayer.com",
-      //        },
-      //        {
-      //          label: "YouTube",
-      //          href: "https://www.youtube.com/@joaquinmetayer",
-      //        },
-      //        {
-      //          label: "LinkedIn",
-      //          href: "https://www.linkedin.com/in/joaquinmetayer/",
-      //        },
-      //      ],
-      //   },
+          //    {
+          //      title: "Project",
+          //      items: [
+          //        {
+          //          label: "How to collab",
+          //          to: "/docs/collab",
+          //        },
+          //        {
+          //          label: "GitHub Repository",
+          //          href: "https://github.com/joaquinmetayer/NGOD",
+          //        },
+          //        {
+          //          label: "GitHub Project",
+          //          href: "https://github.com/users/joaquinmetayer/projects/3",
+          //        },
+          //      ],
+          //    },
+          //    {
+          //      title: "Joaquin",
+          //      items: [
+          //        {
+          //          label: "Website",
+          //          href: "https://joaquinmetayer.com",
+          //        },
+          //        {
+          //          label: "YouTube",
+          //          href: "https://www.youtube.com/@joaquinmetayer",
+          //        },
+          //        {
+          //          label: "LinkedIn",
+          //          href: "https://www.linkedin.com/in/joaquinmetayer/",
+          //        },
+          //      ],
+          //   },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} NGOD. With ❤️ by the community and <a href="https://joaquinmetayer.com/" target="_blank">Joaquin Metayer</a>.`,
       },
