@@ -125,7 +125,7 @@ themeConfig:
           //      ],
           //   },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} NGOD. With ❤️ by the community and <a href="https://joaquinmetayer.com/" target="_blank">Joaquin Metayer</a>.`,
+        copyright: `Copyright © ${new Date().getFullYear()} NGOD. With ❤️ by the community and <a href="https://joaquinmetayer.com/" target="_blank">Joaquin</a>.`,
       },
       prism: {
         theme: lightCodeTheme,

@@ -23,11 +23,44 @@
   --ifm-footer-background-color: #242526;
 }
 
-
-.hero__subtitle{
-  font-size: 18px;
-  padding-bottom: 8px;
+.main-wrapper{
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
 }
 .custom-hero{
-  height: 100vh;
+  height: con;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  background-color: none;
+}
+.title-black{
+  font-size: 60px;
+}
+.btn-hero{
+  margin: 5px;
+}
+.img-hero{
+  width: 60px;
+  height: 60px;
+  margin-bottom: 15px;
+  margin-right: 20px;
+  animation: rotacion 7s infinite linear;
+}
+@keyframes rotacion {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.title-hero{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
