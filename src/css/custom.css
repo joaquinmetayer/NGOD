@@ -23,38 +23,11 @@
   --ifm-footer-background-color: #242526;
 }
 
+
+.hero__subtitle{
+  font-size: 18px;
+  padding-bottom: 8px;
+}
 .custom-hero{
-  min-height: 100vh !important;
-  width: 100%;
-  overflow: hidden;
-  text-align: center;
-  background-color: #fff;
-  color: #242526;
-}
-.title-black{
-  font-size: 60px;
-  color: #242526;
-}
-.btn-hero{
-  margin: 5px;
-}
-.img-hero{
-  width: 60px;
-  height: 60px;
-  margin-bottom: 15px;
-  margin-right: 20px;
-  animation: rotacion 7s infinite linear;
-}
-@keyframes rotacion {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-.title-hero{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: 100vh;
 }
