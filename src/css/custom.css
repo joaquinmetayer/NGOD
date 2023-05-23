@@ -23,17 +23,23 @@
   --ifm-footer-background-color: #242526;
 }
 
+.main-wrapper{
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+}
 .custom-hero{
-  min-height: 100vh !important;
+  height: con;
   width: 100%;
   overflow: hidden;
   text-align: center;
-  background-color: #fff;
-  color: #242526;
+  background-color: none;
 }
 .title-black{
   font-size: 60px;
-  color: #242526;
 }
 .btn-hero{
   margin: 5px;

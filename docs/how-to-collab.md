@@ -16,7 +16,7 @@ Yes, it's an open-source project, created with ❤️ for developers by develope
 2. Fork the repository **[NGOD here](https://github.com/joaquinmetayer/NGOD)**.
 3. Create a branch with your name.
 4. Add or modify documentation following the documentation patterns.
-5. Submit a pull request to the master branch.
+5. Submit a pull request to the **develop** branch.
 6. Share this on LinkedIn.
 
 ## Documentation Pattern
