@@ -10,8 +10,6 @@ Welcome to the **#NewGenerationOfDevelopers**.
 
 ## About
 
-***
-
 A simple open source project guide to building high-quality software with AI helps (this is not the AI; it's a guide) that provides all the basics you need.
 
 Say goodbye to boring and lengthy documentation. Here, you will find the fundamentals for building high-quality software with artificial intelligence. If you need any code, the AI will guide you step by step. However, the important thing in software development is to understand how things work, how to build and connect all the software components, and so on, in order to solve the problem —not just memorize how to code my entire app.
@@ -24,8 +22,6 @@ Say goodbye to boring and lengthy documentation. Here, you will find the fundame
 Build good and fast. Enjoy.
 
 ## The history 
-
-***
 
 The New Generation of Devs (NGOD) was born in the middle of my career as a developer when the requirements in my role as a software engineer exceeded my existing knowledge, and I needed to learn new skills.
 
