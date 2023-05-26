@@ -10,8 +10,6 @@ Yes, it's an open-source project, created with ❤️ for developers by develope
 
 ## Steps
 
-***
-
 1. Choose the technology you want to write about.
 2. Fork the repository **[NGOD here](https://github.com/joaquinmetayer/NGOD)**.
 3. Create a branch with your name.
@@ -21,8 +19,6 @@ Yes, it's an open-source project, created with ❤️ for developers by develope
 
 ## Documentation Pattern
 
-***
-
 The NGOD site is created with **[Docusaurus](https://docusaurus.io/)**, a React-based framework that supports **Markdown files**.
 
 Refer to the Markdown guide **[here](https://www.markdownguide.org/)**.
@@ -31,29 +27,24 @@ Refer to the Markdown guide **[here](https://www.markdownguide.org/)**.
 
 ### Setting up the Environment
 
-***
-
 1. Fork the **[GitHub repository](https://github.com/joaquinmetayer/NGOD)**.
 2. Open the project in your IDE and run ``npm i`` and ``npm start``.
 3. You're ready to collaborate.
 
 ### Adding a Category
 
-***
+1. Create a new folder within the ``docs`` directory with the name of the category. For example, if the category name is "Typescript," the folder name should be ``typescript``.
 
-1. Create a new folder within the ``docs`` directory with the name of the category. For example, if the category name is "Advanced Guides," the folder name should be ``advanced-guides``.
+![Typescript](./img/typescript.png)
 
-![AdvancesGuide](./img/advances-guides.png)
-
-2. Inside the category folder, create a file named ``_config_.json`` with the following structure (copy and paste the example):
+2. Inside the category folder, create a file named ``_category_.json`` with the following structure (copy and paste the example):
 
 ```json
 {
-  "label": "Advanced Tutorials",
-  "position": 1, // position in the categories
+  "label": "Typescript",
+  "position": 3,
   "link": {
-    // This description shows inside the category
-    "description": "This section will not be highly structured, but we will cover the following topics:"
+    "type": "generated-index"
   }
 }
 ```
@@ -63,8 +54,6 @@ The ``.md`` and ``.mdx`` files will automatically be displayed as cards within t
 ![CategoryView](./img/category-view.png)
 
 ### Adding a Page
-
-***
 
 1. Create your Markdown files.
 
@@ -85,7 +74,7 @@ In the end, your app files will look like this:
 ```
 docs
 ├── img
-├── advanced-guides.md
+├── typescript
 │   └── _category_.json
 │   └── architecture.md
 │   └── plugins.md
@@ -97,14 +86,10 @@ docs
 
 ### Content in the Documentation
 
-***
-
 A simple and structured approach is as follows:
 
 1. Choose a category for the technology, such as Angular, React, C#, NodeJS, Patterns, etc.
 2. Within the category, insert the relevant ``.md`` files.
 3. In the Markdown files, explain a specific topic related to the category, such as Angular CLI, Routes, Directives, etc.
-
-***
 
 Remember... the easiest way to learn how to do this is by reviewing the **[GitHub repository](https://github.com/joaquinmetayer/NGOD)** and following the pattern.

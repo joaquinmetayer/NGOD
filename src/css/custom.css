@@ -20,7 +20,8 @@
   --ifm-color-primary-lighter: #ffffff;
   --ifm-color-primary-lightest: #ffffff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-  --ifm-footer-background-color: #242526;
+  --ifm-footer-background-color: #1b1b1d;
+  --ifm-background-surface-color: #1b1b1d !important;
 }
 
 .main-wrapper{
@@ -30,12 +31,14 @@
   flex-wrap: nowrap;
   align-content: center;
   justify-content: center;
+  background-color: none;
 }
 .custom-hero{
-  height: con;
+  height: 100% !important;
   width: 100%;
   overflow: hidden;
   text-align: center;
+  background-color: none;
   background-color: none;
 }
 .title-black{
