@@ -1,27 +1,8 @@
 ---
-sidebar_position: 1
+sidebar_position: 3
 ---
 
-# Getting Started
-
-Learn how to make high quality software to create faster with artificial intelligence.
-
-Welcome to the **#NewGenerationOfDevelopers**.
-
-## About
-
-A simple open source project guide to building high-quality software with AI helps (this is not the AI; it's a guide) that provides all the basics you need.
-
-Say goodbye to boring and lengthy documentation. Here, you will find the fundamentals for building high-quality software with artificial intelligence. If you need any code, the AI will guide you step by step. However, the important thing in software development is to understand how things work, how to build and connect all the software components, and so on, in order to solve the problem —not just memorize how to code my entire app.
-
-- **Learn software architecture.**
-- **Learn the basics of each solution, tool, and technology.**
-- **Specialize in one stack.**
-- **Need step-by-step guidance? Ask the AI.**
-
-Build good and fast. Enjoy.
-
-## The history 
+# About
 
 The New Generation of Devs (NGOD) was born in the middle of my career as a developer when the requirements in my role as a software engineer exceeded my existing knowledge, and I needed to learn new skills.
 
@@ -58,3 +39,5 @@ My job is to:
 If I encounter a specific coding requirement that I don't know how to implement step by step, AI can assist me. However, it is crucial that I possess a general understanding of how things work and how all the components fit together in the project.
 
 You can find all of this information here!
+
+**Created by [Joaquin Metayer](https://joaquinmetayer.com/).**

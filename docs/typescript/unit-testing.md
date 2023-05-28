@@ -2,7 +2,7 @@
 sidebar_position: 18
 ---
 
-# Unit Testing with TypeScript
+# Unit Testing with TS
 
 Unit testing is an important component in software development as it allows verifying that each unit of code (such as functions, methods, or classes) functions correctly in isolation. In TypeScript, there are various tools and frameworks available for performing unit testing. Here are the key concepts related to unit testing in TypeScript.
 

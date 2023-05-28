@@ -35,7 +35,7 @@ Refer to the Markdown guide **[here](https://www.markdownguide.org/)**.
 
 1. Create a new folder within the ``docs`` directory with the name of the category. For example, if the category name is "Typescript," the folder name should be ``typescript``.
 
-![Typescript](./img/typescript.png)
+![Typescript](../img/typescript.png)
 
 2. Inside the category folder, create a file named ``_category_.json`` with the following structure (copy and paste the example):
 
@@ -51,7 +51,7 @@ Refer to the Markdown guide **[here](https://www.markdownguide.org/)**.
 
 The ``.md`` and ``.mdx`` files will automatically be displayed as cards within the category, like this:
 
-![CategoryView](./img/category-view.png)
+![CategoryView](../img/category-view.png)
 
 ### Adding a Page
 
